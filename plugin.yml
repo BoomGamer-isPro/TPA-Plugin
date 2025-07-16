@@ -1,0 +1,18 @@
+name: Tpa
+main: BoomGamer\Tpa\Main
+version: 1.0.0
+api: 5.25.0
+description: Tpa plugin
+commands:
+  tpa:
+    description: Tp
+    usage: "/tpa <player>"
+    permission: tpa.command
+  tpaccept:
+    description: accept tp
+    usage: "/tpaccept"
+    permission: tpa.command
+permissions:
+  tpa.command:
+    description: Allow usage of /tpa
+    default: true
